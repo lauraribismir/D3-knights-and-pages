@@ -1,20 +1,17 @@
-body {
-
-
-
-
+.view {
+display: flex;
+justify-content: space-between;
+min-height: 80vh;
+align-items: center;
+background: yellow;
 }
 
-.left-bank {
-  border: 2px solid blue;
-  max-width: 600px;
-  float: left;
+img{
+max-height: 10em;
 }
 
-.right-bank {
-  border: 2px solid green;
-  max-width: 600px;
-  float : right;
+.left-banc {
+border: 1px solid red;
 }
  .view {
    min-height : 100vh;
@@ -26,14 +23,12 @@ body {
    }
 
 
-footer {
-  overflow: hidden;
-  clear: both;
+.right-banc {
+border: 1px solid green;
 }
 
-img {
-	width: 200px;
-
-
-}
+.couple {
+border : 1px solid #efefef;
+min-height: 4em;
+display: flex;
 }
