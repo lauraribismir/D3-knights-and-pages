@@ -1,0 +1,28 @@
+body {
+  background-color: "images/fond.png"
+
+
+;
+}
+
+.left-bank {
+  border: 2px solid blue;
+  max-width: 600px;
+  float: left;
+}
+
+.right-bank {
+  border: 2px solid green;
+  max-width: 600px;
+  float : right;
+}
+
+
+footer {
+  overflow: hidden;
+  clear: both;
+}
+
+img {
+	width: 200px;
+}
