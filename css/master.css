@@ -1,8 +1,8 @@
 body {
-  background-color: "images/fond.png"
 
 
-;
+
+
 }
 
 .left-bank {
@@ -16,6 +16,14 @@ body {
   max-width: 600px;
   float : right;
 }
+ .view {
+   min-height : 100vh;
+   display: flex;
+   justify-content: space-between;
+  background: url("images/fond.png") top center no-repeat;
+   background-size : cover;
+   margin-bottom : 0px
+   }
 
 
 footer {
@@ -25,4 +33,7 @@ footer {
 
 img {
 	width: 200px;
+
+
+}
 }
