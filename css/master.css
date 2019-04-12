@@ -1,8 +1,8 @@
 .view {
 display: flex;
 justify-content: space-between;
+align-items: flex-end;
 min-height: 80vh;
-align-items: center;
 background: yellow;
 }
 
@@ -28,7 +28,14 @@ border: 1px solid green;
 }
 
 .couple {
-border : 1px solid #efefef;
+
 min-height: 4em;
 display: flex;
+}
+
+
+.choices {
+  border : 2px solid red;
+  display: flex;
+  justify-content: space-evenly;
 }
